@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: whitesmoke;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 45px;
+}
+
+span{
+    color: blue;
+}
+
+.detel p{
+    color: black;
+    line-height: 22px;
+}
+
+.detel a{
+    background-color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.image{
+    width: 45%;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.image img{
+    height: 107%;
+    position: absolute;
+    left: 62%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.image:hover .ml{
+    bottom: 40px;
+}
+
+.image:hover .gp{
+    left: 45%;
+}
+
+.HOME-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px dotted blue;
+    text-decoration: none;
+    margin: 25px 15px 30px 0;
+}
+.HOME-sci a:hover{
+    background: blue;
+    color: #070707;
+    box-shadow: 0 0 20px blue;
+}
+
+
+.btn-box{
+    display: inline-block;
+    padding: 9px 17px ;
+    background: #000000;
+    border-radius: 40px;
+    font-size: 16px;
+    color: blue;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.btn-box a:hover{
+    box-shadow: 0 0 5px gold,
+    0 0 25px gold, 0 0 50px gold,
+    0 0 100px gold, 0 0 200px gold;
+}
+
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.about img{
+    width: 500px;
+        height: 320px;
+}
+.ABOUT-text{
+    margin-left: 45%;
+    margin-top: -20%;
+}
+.ABOUT-text h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ABOUT-text span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+.ABOUT-text p{
+    color: black;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.container h1{
+    font-size: 50px;
+    color: rgb(11, 11, 11);
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 8%;
+}
+.container span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+
+.kontak{
+    margin-left: 7%;
+    margin-top: 10%;
+}
+.kontak span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+.kontak h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.kontak h2{
+    margin-left: 8%;
+    margin-top: 4%;
+    font-size: 15px;
+    color: rgb(6, 6, 6);
+}
+.kontak h3{
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 15px;
+    color:  rgb(3, 3, 3);
+}
+
+.CONTECT-sci{
+    margin-left: 14%;
+    margin-top: 0%;
+}
+
+.CONTECT-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 1px dotted blue;
+    text-decoration: none;
+    margin: 10px 10px 30px 0px;
+}
+.CONTECT-sci a:hover{
+    background: blue;
+    color: #0d0d0d;
+    box-shadow: 0 0 20px blue;
+
+}
